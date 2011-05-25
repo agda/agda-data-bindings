@@ -4,8 +4,8 @@ pkgid = agda-data-bindings
 
 # Include the Agda makefile
 
-export agdamakefileuri ?= https://github.com/agda/agda-makefile/raw/v0.0.5/Makefile
-export agdamakefile ?= $(CURDIR)/build/share/make/agda-makefile-0.0.5
+export agdamakefileuri ?= https://github.com/agda/agda-makefile/raw/v0.0.6/Makefile
+export agdamakefile ?= $(CURDIR)/build/share/make/agda-makefile-0.0.6
 export CURL ?= curl
 
 $(agdamakefile):
