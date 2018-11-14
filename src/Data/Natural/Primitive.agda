@@ -26,7 +26,7 @@ postulate
 
 private
   postulate
-    # : ∀ {A} → A → Natural
+    # : ∀ {A : Set} → A → Natural
 {-# COMPILED # (\ _ -> Data.Natural.AgdaFFI.convert MAlonzo.Code.Data.Nat.mazNatToInteger) #-}
 
 fromℕ : ℕ → Natural
